@@ -19,8 +19,6 @@ Text to Speech:
 * ```mikuai/speedyspeech/utils/stft.py``` - torch-stft by Prem Seetharaman (BSD 3-Clause License)
 * ```mikuai/speedyspeech/pytorch_ssim``` - pytorch-ssim by Po-Hsun-Su (MIT)
 
-WebRTC: [python-opus](https://github.com/svartalf/python-opus)
-
 Many thanks to Jan Vainer, Seung-won Park, NVIDIA, Mozilla
 
 ## Usage
