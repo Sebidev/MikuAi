@@ -32,17 +32,6 @@ Requirement is [Anaconda](https://www.anaconda.com/) installed is on your system
 
 If you want to use CUDA, you need the [CUDA toolkit and proprietary Nvidia driver](https://developer.nvidia.com/cuda-downloads) on your system.
 
-Python Opus Libary install for Windows [this manual read](https://github.com/discordrb/discordrb/wiki/Installing-libopus)
-```bash
-#Ubuntu and Debian
-sudo apt install libopus0 opus-tools
-#Fedora and CentOS
-sudo dnf install opus opus-tools
-#Arch Linux and Manjaro Linux
-sudo pacman -S opus opus-tools
-#MacOS
-brew install opus
-
 #For Linux and Windows create a environment with CUDA support environment
 conda create -n mikuai python=3.7.0 pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
 
@@ -62,11 +51,6 @@ pip install -r requirements.txt
 #For Windows you still have to do this to be able to install PyAudio
 pip install pipwin
 pipwin install pyaudio
-
-#Python opus libary install
-git clone https://github.com/Sebidev/python-opus
-cd python-opus
-python setup.py install
 
 #Pull the necessary data sets with you [1.2GB]
 python mikuai.py --pull
