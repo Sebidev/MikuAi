@@ -32,7 +32,8 @@ Requirement is [Anaconda](https://www.anaconda.com/) installed is on your system
 
 If you want to use CUDA, you need the [CUDA toolkit and proprietary Nvidia driver](https://developer.nvidia.com/cuda-downloads) on your system.
 
-```#For Linux and Windows create a environment with CUDA support environment
+```
+#For Linux and Windows create a environment with CUDA support environment
 conda create -n mikuai python=3.7.0 pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
 
 #For Linux and Windows create a environment only CPU support environment
